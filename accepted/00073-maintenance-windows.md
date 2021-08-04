@@ -174,7 +174,7 @@ We define a second flag which say, if that action can be executed on systems not
   10 | rollback.config                                 | Enable or Disable RPM Transaction Rollback                                                         | Y
   11 | rollback.listTransactions                       | Refresh server-side transaction list                                                               | N
   12 | rollback.rollback                               | RPM Transaction Rollback                                                                           | Y
-  13 | packages.autoupdate                             | Automatic package installation                                                                     | Y
+  13 | patch.autoupdate                                | Automatic patch installation                                                                     | Y
   14 | packages.runTransaction                         | Package Synchronization                                                                            | Y
   15 | configfiles.upload                              | Upload config file data to server                                                                  | N
   16 | configfiles.deploy                              | Deploy config files to system                                                                      | Y
